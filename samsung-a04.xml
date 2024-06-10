@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="juanes10201"
+          fetch="https://github.com/juanes10201"
+          revision="lineage-21" />
+
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-21" />
+
+  <project name="android_device_samsung_a04" path="device/samsung/a04" remote="juanes10201"/>
+
+  <project name="kernel-samsung-A04" path="kernel/samsung/a04" remote="juanes10201"/>
+</manifest>
